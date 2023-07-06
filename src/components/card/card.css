@@ -1,0 +1,49 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: center;
+}
+
+.imageWrapper {
+  display: flex;
+  width: fit-content;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  transition: all 0.2s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.name {
+  display: flex;
+  width: fit-content;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.description {
+  display: none;
+}
+
+.shown {
+  display: flex;
+  width: 30%;
+  padding-left: 10px;
+  align-items: center;
+}
